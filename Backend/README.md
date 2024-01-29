@@ -15,20 +15,33 @@ Develop the backend for the E-commerce application to handle user registration, 
 ## Requirements
 
 1. **User Registration**:
-
    - Create APIs for user registration and login.
    - Use bcrypt for password hashing.
    - Only registered users can place orders on products
 
 2. **Product Data Model**:
-
    - Create a Product schema using Mongoose for storing product data.
-   - The schema should include fields for image URLs, product title, and product description, and date added.
+   - The schema should include fields for image URLs, product title, price, and product description, and date added.
    - All fields should be required.
    - Set timestamps for the schema.
 
-3. **Order Data Model**:
+3. **Product Creation API**:
+   - Create an API endpoint for adding new products.
+   - The endpoint should accept the product data as a JSON object in the request body.
+   - Save the created product to the database, associating them with the logged-in user.
 
+4. **Product Retrieval API**:
+   - Create API endpoints to retrieve all products and product by ID
+   - Product Update API:
+
+5. **Create an API endpoint for updating products**:
+   - Ensure that only the product creator can update their products.
+
+6. **Product Deletion API**:
+   - Create an API endpoint for deleting products.
+   - Ensure that only the product creator can delete their products.
+
+7. **Order Data Model**:
    - Create a Order schema using Mongoose for storing order data.
    - The schema should include fields for Product ID, product title, and product description, product quantity, price per unit and total price.
    - All fields should be required.
