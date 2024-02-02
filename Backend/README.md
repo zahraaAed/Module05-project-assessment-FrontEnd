@@ -17,7 +17,7 @@ Develop the backend for the E-commerce application to handle user registration, 
 1. **User Registration**:
    - Create APIs for user registration and login.
    - Use bcrypt for password hashing.
-   - Only registered users can place orders on products
+   - Only registered users can place orders on products, unregistered users can only view list of products
 
 2. **Product Data Model**:
    - Create a Product schema using Mongoose for storing product data.
@@ -32,9 +32,9 @@ Develop the backend for the E-commerce application to handle user registration, 
 
 4. **Product Retrieval API**:
    - Create API endpoints to retrieve all products and product by ID
-   - Product Update API:
 
-5. **Create an API endpoint for updating products**:
+5. **Product Update API**:
+   - Create an API endpoint for updating products
    - Ensure that only the product creator can update their products.
 
 6. **Product Deletion API**:
@@ -52,6 +52,7 @@ Develop the backend for the E-commerce application to handle user registration, 
 1. **Create dashboard**:
 
    - Create dashboard for store admin to create, update, and delete products.
+   - Add status for pending orders (Approved, Rejected, Pending)
 
 
 ## Submission
