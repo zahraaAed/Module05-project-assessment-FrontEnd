@@ -30,7 +30,7 @@ Design a web application and build it with React and any styling library of your
 4. **Checkout page**
    
    - Allow registered users to view their added product(s)
-   - Allow registered users to choose payment method and submit their order
+   - Allow registered users to choose payment method and submit their order (cash on delivery)
    
 5. **Responsiveness**:
 
